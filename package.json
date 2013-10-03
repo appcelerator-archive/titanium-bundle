@@ -22,7 +22,7 @@
 		"node": ">=0.8"
 	},
 	"dependencies": {
-		"titanium": "3.1.3",
+		"titanium": "3.1.2",
 		"alloy": "1.2.2",
 		"titanium-code-processor": "1.0.3",
 
