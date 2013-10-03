@@ -1,0 +1,31 @@
+{
+	"name": "titanium-bundle",
+	"version": "0.1.0",
+	"description": "Titanium node.js tools collection",
+	"repository": {
+		"type": "git",
+		"url": "github.com/appcelerator/titanium-bundle"
+	},
+	"preferGlobal": true,
+	"author": {
+		"name": "Appcelerator, Inc.",
+		"email": "info@appcelerator.com"
+	},
+	"maintainers": [
+		{"name": "Bryan Hughes", "email": "bhughes@appcelerator.com"}
+	],
+	"license": "Apache Public License v2",
+	"bugs": {
+		"url": "https://github.com/appcelerator/titanium-bundle/issues"
+	},
+	"engines": {
+		"node": ">=0.8"
+	},
+	"dependencies": {
+		"titanium": "git://github.com/appcelerator/titanium.git",
+		"alloy": "git://github.com/appcelerator/alloy.git",
+		"titanium-code-processor": "git://github.com/appcelerator/titanium-code-processor.git",
+
+		"npmconf": "0.1.x"
+	}
+}
