@@ -21,4 +21,4 @@ Once the package has been installed, run:
 ./node_modules/titanium-bundle/bin/install.js
 ```
 
-You may need to run the previous command as sudo, depending on your setup. Once done, you should have all three packages installed and available globally.
+You may need to run the previous command as sudo, depending on your setup. Once done, you should have all three packages installed, available globally, and linked to the CLI (hooks and commands paths set).
