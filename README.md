@@ -56,7 +56,8 @@ To update to an unreleased version of the dependencies, specify the git hash/tag
   }
 ```
 
-Once your changes have been made, push this branch directly to the appcelerator repo (you will need push permissions)
+Once your changes have been made, push this branch directly to the appcelerator repo.
 ```
 git push appcelerator <version name>
 ```
+If you do not have push permissions, you can get someone who has permission to create the branch in the appc repo and then you can issue a PR against that branch.
