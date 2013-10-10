@@ -35,7 +35,7 @@ git checkout -b <version name>
 
 Then update the dependencies section of the package.json file. To update to a released version of the dependencies (i.e. has been published to npm):
 ```
-	"dependencies": {
+"dependencies": {
     "titanium": "<version>",
     "alloy": "<version>",
     "titanium-code-processor": "<version>",
@@ -47,7 +47,7 @@ Note: npmconf is used by the bundle's internal install script and should NOT be 
 
 To update to an unreleased version of the dependencies, specify the git hash/tag/branch/whatever with a git url:
 ```
-	"dependencies": {
+"dependencies": {
     "titanium": "git://github.com/appcelerator/titanium.git#<git hash/tag/branch/whatever>",
     "alloy": "git://github.com/appcelerator/alloy.git#<git hash/tag/branch/whatever>",
     "titanium-code-processor": "git://github.com/appcelerator/titanium-code-processor.git#<git hash/tag/branch/whatever>",
