@@ -22,9 +22,9 @@
 		"node": ">=0.8"
 	},
 	"dependencies": {
-		"titanium": "git://github.com/appcelerator/titanium.git",
-		"alloy": "git://github.com/appcelerator/alloy.git",
-		"titanium-code-processor": "git://github.com/appcelerator/titanium-code-processor.git",
+		"titanium": "3.2.0-alpha",
+		"alloy": "1.3.0-alpha3",
+		"titanium-code-processor": "1.1.0-alpha",
 
 		"npmconf": "0.1.x"
 	}
