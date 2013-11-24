@@ -54,7 +54,7 @@ function setPaths() {
 	console.log('Searching for CLI commands and hooks');
 	directoriesToScan.forEach(function (dir) {
 		var componentPath;
-		if (dir != '.bin' && dir != 'npmconf' && dir != 'titanium') {
+		if (dir !== '.bin' && dir !== 'npmconf' && dir !== 'titanium' && dir !== 'alloy') {
 			componentPath = path.join(sourceDirectory, dir, 'hooks');
 			if (fs.existsSync(componentPath)) {
 				hooks.push(componentPath);
